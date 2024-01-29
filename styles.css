@@ -1,0 +1,107 @@
+/* Reset some default browser styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Main Page Styles */
+.lit-corridor {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    cursor: pointer;
+}
+
+.bulletin-board {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.doorway {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    text-align: center;
+}
+
+.darkroom {
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* UX Portfolio Styles */
+.ux-portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon {
+    text-align: center;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.content-section {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Photography Portfolio Styles */
+.photography-portfolio {
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* General Styles */
+header, nav, main, footer {
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Animation Styles (optional) */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Add more specific styling as needed for individual sections or elements */
